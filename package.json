@@ -26,9 +26,7 @@
     "react-switch": "^5.0.1"
   },
   "scripts": {
-    "start": "run-p start:client start:server",
-    "start:client": "react-scripts --openssl-legacy-provider start",
-    "start:server": "node tools/server.js",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
